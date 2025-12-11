@@ -1,0 +1,36 @@
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" 
+     crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" 
+    crossorigin="anonymous"></script>
+</head>
+<body>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top" id="#Parent">
+        <div class="container-fluid">
+            <ul class="navbar-nav nav-pills">
+                <li class="nav-item"><a class="nav-link active" href="#section1">Item1</a>
+                    <li class="nav-item"><a class="nav-link active" href="#ab">Item 1-1</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#cd">Item 1-2</a></li>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="#section3">Item2</a></li>
+                <li class="nav-item"><a class="nav-link" href="#section2">Item 3</a>
+                <li class="nav-item"><a class="nav-link active" href="#xy">Item 3-1</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="#yx">Item 3-2</a></li>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div data-bs-spy="scroll" data-bs-target="Parent" data-bs-offset="70" tabindex="0" style="position:relative;overflow-y:auto;height:100vh">
+        <div id="section1" class="container-fluid bg-success" style="height:800px; padding:100px">
+            <h1>Home data</h1>
+        </div>
+        <div id="section2" class="container-fluid bg-warning" style="height:800px; padding:100px">
+            <h1>About data</h1>
+        </div>
+        <div id="section3" class="container-fluid bg-info" style="height:800px; padding:100px">
+            <h1>Contact data</h1>
+        </div>
+    </div>
+</body>
